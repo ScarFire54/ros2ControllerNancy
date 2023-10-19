@@ -28,6 +28,9 @@ sudo apt install libudev-dev
 
 #Install colcon to build package
 sudo apt install python3-colcon-common-extensions
+
+#Install pip and set good version of setuptools
+sudo apt-get -y install python3-pip
 pip install setuptools==58.2.0
 
 
