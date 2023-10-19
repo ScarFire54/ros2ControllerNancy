@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Check dépendances
+cd rsp_comm
+source /opt/ros/humble/setup.bash
+sudo rosdep init
+rosdep update
+rosdep install --from-paths src --ignore-src -y
+
+#Build
+colcon build --symlink-install
+source install/setup.bash
+
+

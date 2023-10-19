@@ -1,0 +1,21 @@
+[2.649s] Invoking command in '/home/maxence/Desktop/Project5A/ROS/rsp_comm/src/rsp_comm': PYTHONPATH=/home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/prefix_override:/home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsp_comm build --build-base /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build install --record /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/install.log --single-version-externally-managed
+[3.499s] running egg_info
+[3.502s] writing ../../build/rsp_comm/rsp_comm.egg-info/PKG-INFO
+[3.505s] writing dependency_links to ../../build/rsp_comm/rsp_comm.egg-info/dependency_links.txt
+[3.506s] writing entry points to ../../build/rsp_comm/rsp_comm.egg-info/entry_points.txt
+[3.506s] writing requirements to ../../build/rsp_comm/rsp_comm.egg-info/requires.txt
+[3.506s] writing top-level names to ../../build/rsp_comm/rsp_comm.egg-info/top_level.txt
+[3.513s] reading manifest file '../../build/rsp_comm/rsp_comm.egg-info/SOURCES.txt'
+[3.519s] writing manifest file '../../build/rsp_comm/rsp_comm.egg-info/SOURCES.txt'
+[3.519s] running build
+[3.520s] running build_py
+[3.520s] running install
+[3.521s] running install_lib
+[3.527s] running install_data
+[3.530s] running install_egg_info
+[3.534s] removing '/home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[3.541s] Copying ../../build/rsp_comm/rsp_comm.egg-info to /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm-0.0.0-py3.10.egg-info
+[3.544s] running install_scripts
+[3.619s] Installing rosController script to /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/rsp_comm
+[3.623s] writing list of installed files to '/home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/install.log'
+[3.711s] Invoked command in '/home/maxence/Desktop/Project5A/ROS/rsp_comm/src/rsp_comm' returned '0': PYTHONPATH=/home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/prefix_override:/home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsp_comm build --build-base /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build install --record /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/install.log --single-version-externally-managed

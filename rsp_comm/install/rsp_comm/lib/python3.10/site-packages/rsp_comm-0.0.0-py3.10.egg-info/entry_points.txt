@@ -1,0 +1,3 @@
+[console_scripts]
+rosController = rsp_comm.rosController:main
+

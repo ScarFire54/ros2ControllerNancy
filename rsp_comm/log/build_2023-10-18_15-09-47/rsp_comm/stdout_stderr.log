@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/rsp_comm/rsp_comm.egg-info
+writing ../../build/rsp_comm/rsp_comm.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsp_comm/rsp_comm.egg-info/dependency_links.txt
+writing entry points to ../../build/rsp_comm/rsp_comm.egg-info/entry_points.txt
+writing requirements to ../../build/rsp_comm/rsp_comm.egg-info/requires.txt
+writing top-level names to ../../build/rsp_comm/rsp_comm.egg-info/top_level.txt
+writing manifest file '../../build/rsp_comm/rsp_comm.egg-info/SOURCES.txt'
+reading manifest file '../../build/rsp_comm/rsp_comm.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsp_comm/rsp_comm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build/lib
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build/lib/rsp_comm
+copying rsp_comm/__init__.py -> /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build/lib/rsp_comm
+copying rsp_comm/rosController.py -> /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build/lib/rsp_comm
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm
+copying /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build/lib/rsp_comm/__init__.py -> /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm
+copying /home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/build/lib/rsp_comm/rosController.py -> /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm
+byte-compiling /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm/rosController.py to rosController.cpython-310.pyc
+running install_data
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/share/ament_index
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/share/ament_index/resource_index
+creating /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/share/ament_index/resource_index/packages
+copying resource/rsp_comm -> /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/share/ament_index/resource_index/packages
+copying package.xml -> /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/share/rsp_comm
+running install_egg_info
+Copying ../../build/rsp_comm/rsp_comm.egg-info to /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/python3.10/site-packages/rsp_comm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rosController script to /home/maxence/Desktop/Project5A/ROS/rsp_comm/install/rsp_comm/lib/rsp_comm
+writing list of installed files to '/home/maxence/Desktop/Project5A/ROS/rsp_comm/build/rsp_comm/install.log'
