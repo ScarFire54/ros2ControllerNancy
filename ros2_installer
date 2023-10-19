@@ -33,4 +33,7 @@ sudo apt install python3-colcon-common-extensions
 sudo apt-get -y install python3-pip
 pip install setuptools==58.2.0
 
+#Setup sources
+echo "source /opt/ros/humble/setup.bash" >> .bashrc
+
 
