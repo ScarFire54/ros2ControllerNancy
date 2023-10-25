@@ -5,6 +5,7 @@ import socket
 import threading
 from geometry_msgs.msg import Twist
 from rclpy.qos import QoSProfile
+import robot_constants
 
 #ros2 run rsp_comm rosController
 
@@ -52,8 +53,19 @@ class socketNode(Node):
     def __init__(self):
         print('debug')
         super().__init__("socket_receiver")
-        self.HOST='10.0.2.4'
-        self.PORT=45421
+        
+        
+        
+        # CHANGE IP HERE
+        #  I
+        #  I
+        #  I
+        #  I
+        #  V
+        
+        
+        self.HOST=robot_constants.ROBOT_IP
+        self.PORT=robot_constants.COMMUNICATION_PORT
         self.socket=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.socket.bind((self.HOST, self.PORT))
         socketurg = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # udp
