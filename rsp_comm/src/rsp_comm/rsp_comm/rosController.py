@@ -5,7 +5,6 @@ import socket
 import threading
 from geometry_msgs.msg import Twist
 from rclpy.qos import QoSProfile
-import robot_constants
 
 #ros2 run rsp_comm rosController
 
@@ -64,8 +63,8 @@ class socketNode(Node):
         #  V
         
         
-        self.HOST=robot_constants.ROBOT_IP
-        self.PORT=robot_constants.COMMUNICATION_PORT
+        self.HOST='10.0.2.4'
+        self.PORT=5432
         self.socket=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.socket.bind((self.HOST, self.PORT))
         socketurg = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # udp
@@ -103,19 +102,19 @@ class socketNode(Node):
             # Publier le message sur un topic ROS 2
             
             # Envoyer la commande au cmd_vel
-            if msg.data == 'up':
+            if str(msg.data) == 'up':
                 self.target_linear_velocity =\
                     check_linear_limit_velocity(self.target_linear_velocity + LIN_VEL_STEP_SIZE)
-            elif msg.data == 'down':
+            elif str(msg.data) == 'down':
                 self.target_linear_velocity =\
                     check_linear_limit_velocity(self.target_linear_velocity - LIN_VEL_STEP_SIZE)
-            elif msg.data == 'turn_left':
+            elif str(msg.data) == 'turn_left':
                 self.target_angular_velocity =\
                     check_angular_limit_velocity(self.target_angular_velocity + ANG_VEL_STEP_SIZE)
-            elif msg.data == 'turn_right':
+            elif str(msg.data) == 'turn_right':
                 self.target_angular_velocity =\
                     check_angular_limit_velocity(self.target_angular_velocity - ANG_VEL_STEP_SIZE)
-            elif msg.data == 'stop':
+            elif str(msg.data) == 'stop':
                 self.target_linear_velocity = 0.0
                 self.control_linear_velocity = 0.0
                 self.target_angular_velocity = 0.0
